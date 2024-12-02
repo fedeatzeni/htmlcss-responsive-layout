@@ -127,8 +127,6 @@ section {
     margin: 10px 0;
 }
 
-
-
 /* footer  */
 footer {
     background-color: #7c69a4;
@@ -241,6 +239,17 @@ footer a{
 
     .col {
         flex-basis: 30%;
+    }
+
+}
+
+/* bonus */
+@media screen and (min-width: 576px) {
+    
+    .second img{
+        width: 40%;
+        padding: 0 10px;
+        float: left;
     }
 
 }
