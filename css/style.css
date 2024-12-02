@@ -46,6 +46,12 @@ body {
     display: none;
 }
 
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 /* mobile first  */
 /* header  */
 header {
@@ -126,7 +132,16 @@ section {
 /* footer  */
 footer {
     background-color: #7c69a4;
-    min-height: 100px;
+    color: white;
+    padding: 20px 30px;
+}
+
+footer .col{
+    margin-bottom: 10px;
+}
+
+footer a{
+    color: white;
 }
 
 /* tablet */
