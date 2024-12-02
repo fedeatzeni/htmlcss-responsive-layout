@@ -109,6 +109,18 @@ section {
     border-radius: 30px;
 }
 
+.border{
+    display: inline-block;
+    border-bottom: 3px solid #ff9614;
+    width: 100px;
+}
+
+.second img{
+    width: 100%;
+    padding: 0 10%;
+    margin: 10px 0;
+}
+
 
 
 /* footer  */
@@ -132,6 +144,10 @@ footer {
 
     section {
         margin: 40px 0;
+    }
+
+    .title h2{
+        font-size: 40px;
     }
 
     .title .remove {
@@ -162,6 +178,13 @@ footer {
         width: 100%;
         margin-top: 40px;
     }
+
+    
+    .second img{
+        width: 40%;
+        padding: 0 10px;
+        float: left;
+    }
 }
 
 /* desktop */
@@ -175,7 +198,10 @@ footer {
     .row {
         display: flex;
         justify-content: space-between;
+    }
 
+    .title h2{
+        font-size: 50px;
     }
 
     /* main  */
